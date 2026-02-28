@@ -14,7 +14,6 @@ document.addEventListener('DOMContentLoaded', () => {
     themeToggle.addEventListener('click', () => {
         const currentTheme = htmlElement.getAttribute('data-theme');
         const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-
         htmlElement.setAttribute('data-theme', newTheme);
         localStorage.setItem('theme', newTheme);
         updateThemeUI(newTheme);
@@ -24,12 +23,12 @@ document.addEventListener('DOMContentLoaded', () => {
         if (theme === 'dark') {
             icon.classList.remove('fa-moon');
             icon.classList.add('fa-sun');
-            if (appLogo) appLogo.src = 'teravox_logo_v3.png'; // Dark mode logo (original)
+            if (appLogo) appLogo.src = 'teravox_logo_v3.png';
             if (footerLogo) footerLogo.src = 'teravox_logo_v3.png';
         } else {
             icon.classList.remove('fa-sun');
             icon.classList.add('fa-moon');
-            if (appLogo) appLogo.src = 'teravox_logo_light.png'; // Light mode logo
+            if (appLogo) appLogo.src = 'teravox_logo_light.png';
             if (footerLogo) footerLogo.src = 'teravox_logo_light.png';
         }
     }
@@ -41,13 +40,13 @@ document.addEventListener('DOMContentLoaded', () => {
     if (mobileBtn) {
         mobileBtn.addEventListener('click', () => {
             navLinks.classList.toggle('active');
-            const icon = mobileBtn.querySelector('i');
+            const menuIcon = mobileBtn.querySelector('i');
             if (navLinks.classList.contains('active')) {
-                icon.classList.remove('fa-bars');
-                icon.classList.add('fa-times');
+                menuIcon.classList.remove('fa-bars');
+                menuIcon.classList.add('fa-times');
             } else {
-                icon.classList.remove('fa-times');
-                icon.classList.add('fa-bars');
+                menuIcon.classList.remove('fa-times');
+                menuIcon.classList.add('fa-bars');
             }
         });
     }
@@ -58,51 +57,43 @@ document.addEventListener('DOMContentLoaded', () => {
             e.preventDefault();
             const target = document.querySelector(this.getAttribute('href'));
             if (target) {
-                // Close mobile menu if open
                 if (navLinks.classList.contains('active')) {
                     navLinks.classList.remove('active');
-                    const icon = mobileBtn.querySelector('i');
-                    icon.classList.remove('fa-times');
-                    icon.classList.add('fa-bars');
+                    const menuIcon = mobileBtn.querySelector('i');
+                    menuIcon.classList.remove('fa-times');
+                    menuIcon.classList.add('fa-bars');
                 }
-
-                target.scrollIntoView({
-                    behavior: 'smooth'
-                });
+                target.scrollIntoView({ behavior: 'smooth' });
             }
         });
     });
 
-    // Scroll Animations (Intersection Observer)
-    const observerOptions = {
-        threshold: 0.1
-    };
-
+    // Scroll Animations using CSS classes
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                entry.target.classList.add('animate-in');
+                entry.target.classList.add('visible');
                 observer.unobserve(entry.target);
             }
         });
-    }, observerOptions);
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
 
-    // Add animation classes to elements
-    const animateElements = document.querySelectorAll('.service-card, .section-title, .hero-content, .about-text, .contact-container');
-    animateElements.forEach(el => {
-        el.style.opacity = '0';
-        el.style.transform = 'translateY(20px)';
-        el.style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
+    // Observe all elements with animate-on-scroll
+    document.querySelectorAll('.animate-on-scroll').forEach((el, i) => {
+        // Stagger cards within grids
+        const parent = el.parentElement;
+        if (parent && (parent.classList.contains('services-grid') || parent.classList.contains('testimonials-grid'))) {
+            const siblings = Array.from(parent.querySelectorAll('.animate-on-scroll'));
+            const index = siblings.indexOf(el);
+            el.style.transitionDelay = `${index * 0.08}s`;
+        }
         observer.observe(el);
     });
 
-    // Add CSS class for animation via JS to keep CSS clean
-    const style = document.createElement('style');
-    style.innerHTML = `
-        .animate-in {
-            opacity: 1 !important;
-            transform: translateY(0) !important;
-        }
-    `;
-    document.head.appendChild(style);
+    // Also animate hero content immediately (it's above fold)
+    const heroContent = document.querySelector('.hero-content');
+    if (heroContent) {
+        heroContent.classList.add('animate-on-scroll');
+        setTimeout(() => heroContent.classList.add('visible'), 100);
+    }
 });
