@@ -23,14 +23,13 @@ document.addEventListener('DOMContentLoaded', () => {
         if (theme === 'dark') {
             icon.classList.remove('fa-moon');
             icon.classList.add('fa-sun');
-            if (appLogo) appLogo.src = 'teravox_logo_v3.png';
-            if (footerLogo) footerLogo.src = 'teravox_logo_v3.png';
         } else {
             icon.classList.remove('fa-sun');
             icon.classList.add('fa-moon');
-            if (appLogo) appLogo.src = 'teravox_logo_light.png';
-            if (footerLogo) footerLogo.src = 'teravox_logo_light.png';
         }
+        const logoSrc = 'teravox_logo_light-removebg-preview.png';
+        if (appLogo) appLogo.src = logoSrc;
+        if (footerLogo) footerLogo.src = logoSrc;
     }
 
     // Mobile Menu Toggle
