@@ -1,0 +1,2424 @@
+{
+  "version": "2.8",
+  "children": [
+    {
+      "type": "frame",
+      "id": "1cG39",
+      "x": 0,
+      "y": 0,
+      "name": "Teravox — Desktop (Dark)",
+      "width": 1440,
+      "fill": "#0a0a12",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "ziJyE",
+          "name": "Nav",
+          "width": "fill_container",
+          "height": 80,
+          "fill": "#14141F99",
+          "padding": [
+            0,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "foMV6",
+              "name": "navLeft",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "xNsb8",
+                  "name": "navLogoBox",
+                  "width": 44,
+                  "height": 44,
+                  "fill": "#3b82f6",
+                  "cornerRadius": 10,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Bcteg",
+                      "name": "navLogoTxt",
+                      "fill": "#FFFFFF",
+                      "content": "TX",
+                      "fontFamily": "Outfit",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "37L5f",
+                  "name": "navBrand",
+                  "fill": "#FFFFFF",
+                  "content": "Teravox",
+                  "fontFamily": "Outfit",
+                  "fontSize": 20,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "QnIQW",
+              "name": "navLinks",
+              "gap": 36,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "EFmFV",
+                  "name": "nl1",
+                  "fill": "#9ca3af",
+                  "content": "Home",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "x1vlN",
+                  "name": "nl2",
+                  "fill": "#9ca3af",
+                  "content": "Services",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "mSC3o",
+                  "name": "nl3",
+                  "fill": "#9ca3af",
+                  "content": "About",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "wY0As",
+                  "name": "nl4",
+                  "fill": "#9ca3af",
+                  "content": "Contact",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "KHz4l",
+                  "name": "navCta",
+                  "fill": "#3b82f6",
+                  "cornerRadius": 50,
+                  "padding": [
+                    10,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "fmwH7",
+                      "name": "navCtaTxt",
+                      "fill": "#FFFFFF",
+                      "content": "Get Started",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Hjkes",
+          "name": "Hero",
+          "width": "fill_container",
+          "height": 800,
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            0,
+            120
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "pvUgz",
+              "name": "heroBadge",
+              "fill": "#3b82f614",
+              "cornerRadius": 50,
+              "gap": 8,
+              "padding": [
+                8,
+                18
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "y5v6f",
+                  "name": "heroBadgeDot",
+                  "width": 7,
+                  "height": 7,
+                  "fill": "#3b82f6",
+                  "cornerRadius": 50
+                },
+                {
+                  "type": "text",
+                  "id": "o1Kl0",
+                  "name": "heroBadgeTxt",
+                  "fill": "#3b82f6",
+                  "content": "Next-Gen AI Solutions",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "8MVzs",
+              "name": "heroTitle",
+              "fill": "#FFFFFF",
+              "content": "Empowering Business with\nArtificial Intelligence",
+              "textAlign": "center",
+              "fontFamily": "Outfit",
+              "fontSize": 68,
+              "fontWeight": "700",
+              "letterSpacing": -2
+            },
+            {
+              "type": "text",
+              "id": "GGVDY",
+              "name": "heroTitleAccent",
+              "fill": "#3b82f6",
+              "content": "built to transform.",
+              "textAlign": "center",
+              "fontFamily": "Outfit",
+              "fontSize": 52,
+              "fontWeight": "700",
+              "letterSpacing": -1.5
+            },
+            {
+              "type": "text",
+              "id": "j52mL",
+              "name": "heroSub",
+              "fill": "#9ca3af",
+              "content": "We specialize in NLP, Generative AI, and intelligent automation to transform\nhow you interact with your customers.",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "fEcwU",
+              "name": "heroBtns",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "wR4s9",
+                  "name": "heroBtn1",
+                  "fill": "#3b82f6",
+                  "cornerRadius": 50,
+                  "padding": [
+                    14,
+                    32
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "xJy8i",
+                      "name": "heroBtn1Txt",
+                      "fill": "#FFFFFF",
+                      "content": "Book a Demo",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "tKjjn",
+                  "name": "heroBtn2",
+                  "fill": "#FFFFFF00",
+                  "cornerRadius": 50,
+                  "padding": [
+                    14,
+                    32
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MHNlW",
+                      "name": "heroBtn2Txt",
+                      "fill": "#3b82f6",
+                      "content": "Explore Services",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "joaRy",
+          "name": "Services",
+          "width": "fill_container",
+          "fill": "#0a0a12",
+          "layout": "vertical",
+          "gap": 56,
+          "padding": [
+            100,
+            120
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "22ova",
+              "name": "svcTitleWrap",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "lskLG",
+                  "name": "svcTitle",
+                  "fill": "#FFFFFF",
+                  "content": "Our Expertise",
+                  "textAlign": "center",
+                  "fontFamily": "Outfit",
+                  "fontSize": 48,
+                  "fontWeight": "700",
+                  "letterSpacing": -1.5
+                },
+                {
+                  "type": "text",
+                  "id": "6k7w4",
+                  "name": "svcSub",
+                  "fill": "#9ca3af",
+                  "content": "End-to-end AI solutions engineered for real business impact.",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "IZ3Gq",
+              "name": "svcGrid",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Wkhlw",
+                  "name": "c1",
+                  "width": 368,
+                  "fill": "#14141FB3",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 18,
+                  "padding": [
+                    32,
+                    28
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "pNect",
+                      "name": "c1IconBox",
+                      "width": 52,
+                      "height": 52,
+                      "fill": "#3b82f614",
+                      "cornerRadius": 14,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "zEyxF",
+                          "name": "c1Icon",
+                          "content": "🧠",
+                          "fontFamily": "Inter",
+                          "fontSize": 24,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "XfTtk",
+                      "name": "c1Title",
+                      "fill": "#FFFFFF",
+                      "content": "Generative AI",
+                      "fontFamily": "Outfit",
+                      "fontSize": 19,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "w4JvC",
+                      "name": "c1Desc",
+                      "fill": "#9ca3af",
+                      "content": "Custom LLM integration and fine-tuning for content generation and creative workflows.",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "xZEYi",
+                  "name": "c2",
+                  "width": 368,
+                  "fill": "#14141FB3",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 18,
+                  "padding": [
+                    32,
+                    28
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "9tyw5",
+                      "name": "c2IconBox",
+                      "width": 52,
+                      "height": 52,
+                      "fill": "#8b5cf614",
+                      "cornerRadius": 14,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "1aU1j",
+                          "name": "c2Icon",
+                          "content": "💬",
+                          "fontFamily": "Inter",
+                          "fontSize": 24,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "kqYW6",
+                      "name": "c2Title",
+                      "fill": "#FFFFFF",
+                      "content": "NLP Solutions",
+                      "fontFamily": "Outfit",
+                      "fontSize": 19,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "GjEke",
+                      "name": "c2Desc",
+                      "fill": "#9ca3af",
+                      "content": "Advanced Natural Language Processing for sentiment analysis, extraction, and classification.",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "F29QK",
+                  "name": "c3",
+                  "width": 368,
+                  "fill": "#14141FB3",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 18,
+                  "padding": [
+                    32,
+                    28
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "QP4Ix",
+                      "name": "c3IconBox",
+                      "width": 52,
+                      "height": 52,
+                      "fill": "#06b6d414",
+                      "cornerRadius": 14,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "iiqTz",
+                          "name": "c3Icon",
+                          "content": "🤖",
+                          "fontFamily": "Inter",
+                          "fontSize": 24,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Mpw1b",
+                      "name": "c3Title",
+                      "fill": "#FFFFFF",
+                      "content": "Smart Chatbots",
+                      "fontFamily": "Outfit",
+                      "fontSize": 19,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YijgL",
+                      "name": "c3Desc",
+                      "fill": "#9ca3af",
+                      "content": "Intelligent conversational agents that handle customer support 24/7 with human-like empathy.",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "hE8gH",
+              "name": "svcGrid2",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "HFh7K",
+                  "name": "c4",
+                  "width": 368,
+                  "fill": "#14141FB3",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 18,
+                  "padding": [
+                    32,
+                    28
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "0RvMZ",
+                      "name": "c4IconBox",
+                      "width": 52,
+                      "height": 52,
+                      "fill": "#3b82f614",
+                      "cornerRadius": 14,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "F6Fad",
+                          "name": "c4Icon",
+                          "content": "📞",
+                          "fontFamily": "Inter",
+                          "fontSize": 24,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "P0yj5",
+                      "name": "c4Title",
+                      "fill": "#FFFFFF",
+                      "content": "Call Bots",
+                      "fontFamily": "Outfit",
+                      "fontSize": 19,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "eajeZ",
+                      "name": "c4Desc",
+                      "fill": "#9ca3af",
+                      "content": "Voice-enabled AI agents capable of handling complex phone queries and scheduling.",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "MNjck",
+                  "name": "c5",
+                  "width": 368,
+                  "fill": "#14141FB3",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 18,
+                  "padding": [
+                    32,
+                    28
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "tLncF",
+                      "name": "c5IconBox",
+                      "width": 52,
+                      "height": 52,
+                      "fill": "#8b5cf614",
+                      "cornerRadius": 14,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "4zr0U",
+                          "name": "c5Icon",
+                          "content": "📊",
+                          "fontFamily": "Inter",
+                          "fontSize": 24,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "sMSGj",
+                      "name": "c5Title",
+                      "fill": "#FFFFFF",
+                      "content": "Data Analytics",
+                      "fontFamily": "Outfit",
+                      "fontSize": 19,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wNLBX",
+                      "name": "c5Desc",
+                      "fill": "#9ca3af",
+                      "content": "Turn unstructured data into actionable insights with our AI-powered analytics tools.",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ry9lq",
+                  "name": "c6",
+                  "width": 368,
+                  "fill": "#14141FB3",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 18,
+                  "padding": [
+                    32,
+                    28
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Mu3n4",
+                      "name": "c6IconBox",
+                      "width": 52,
+                      "height": 52,
+                      "fill": "#06b6d414",
+                      "cornerRadius": 14,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "CtupR",
+                          "name": "c6Icon",
+                          "content": "⚙️",
+                          "fontFamily": "Inter",
+                          "fontSize": 24,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "WSuEm",
+                      "name": "c6Title",
+                      "fill": "#FFFFFF",
+                      "content": "Automations",
+                      "fontFamily": "Outfit",
+                      "fontSize": 19,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qcQMz",
+                      "name": "c6Desc",
+                      "fill": "#9ca3af",
+                      "content": "Streamline with n8n, Zapier, and GoHighLevel workflows to save time and reduce errors.",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "DQ9Qm",
+          "name": "Testimonials",
+          "width": "fill_container",
+          "fill": "#3b82f60D",
+          "layout": "vertical",
+          "gap": 56,
+          "padding": [
+            100,
+            120
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "L1cX9",
+              "name": "testTitleWrap",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "VXH53",
+                  "name": "testTitle",
+                  "fill": "#FFFFFF",
+                  "content": "What Our Clients Say",
+                  "textAlign": "center",
+                  "fontFamily": "Outfit",
+                  "fontSize": 48,
+                  "fontWeight": "700",
+                  "letterSpacing": -1.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "iJQ95",
+              "name": "testGrid",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "avJ4F",
+                  "name": "tc1",
+                  "width": 373,
+                  "fill": "#14141FB3",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": [
+                    32,
+                    28
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "0SbHK",
+                      "name": "tc1Top",
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "BC2pm",
+                          "name": "tc1Avatar",
+                          "width": 48,
+                          "height": 48,
+                          "fill": "#3b82f6",
+                          "cornerRadius": 50,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "4tEd7",
+                              "name": "tc1AvatarTxt",
+                              "fill": "#FFFFFF",
+                              "content": "JD",
+                              "fontFamily": "Outfit",
+                              "fontSize": 14,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "0CfXs",
+                          "name": "tc1Info",
+                          "layout": "vertical",
+                          "gap": 3,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "dccuB",
+                              "name": "tc1Name",
+                              "fill": "#FFFFFF",
+                              "content": "John Doe",
+                              "fontFamily": "Outfit",
+                              "fontSize": 15,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "pt17D",
+                              "name": "tc1Role",
+                              "fill": "#9ca3af",
+                              "content": "CEO, TechCorp",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "xa5nf",
+                      "name": "tc1Stars",
+                      "fill": "#fbbf24",
+                      "content": "★★★★★",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "21DNx",
+                      "name": "tc1Quote",
+                      "fill": "#9ca3af",
+                      "content": "\"Teravox transformed our customer support with their AI chatbots. Efficiency increased by 40% in just two months!\"",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "4Tftj",
+                  "name": "tc2",
+                  "width": 373,
+                  "fill": "#14141FB3",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": [
+                    32,
+                    28
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "sie63",
+                      "name": "tc2Top",
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Utvnm",
+                          "name": "tc2Avatar",
+                          "width": 48,
+                          "height": 48,
+                          "fill": "#8b5cf6",
+                          "cornerRadius": 50,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "wLJim",
+                              "name": "tc2AvatarTxt",
+                              "fill": "#FFFFFF",
+                              "content": "AS",
+                              "fontFamily": "Outfit",
+                              "fontSize": 14,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "CSJiG",
+                          "name": "tc2Info",
+                          "layout": "vertical",
+                          "gap": 3,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "LAQQp",
+                              "name": "tc2Name",
+                              "fill": "#FFFFFF",
+                              "content": "Alice Smith",
+                              "fontFamily": "Outfit",
+                              "fontSize": 15,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "lPQVp",
+                              "name": "tc2Role",
+                              "fill": "#9ca3af",
+                              "content": "CTO, InnovateX",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "w9FdH",
+                      "name": "tc2Stars",
+                      "fill": "#fbbf24",
+                      "content": "★★★★★",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Qeggu",
+                      "name": "tc2Quote",
+                      "fill": "#9ca3af",
+                      "content": "\"The NLP solutions provided by Teravox gave us deep insights into our customer feedback. Highly recommended!\"",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "CtX9C",
+                  "name": "tc3",
+                  "width": 373,
+                  "fill": "#14141FB3",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": [
+                    32,
+                    28
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "QK7Of",
+                      "name": "tc3Top",
+                      "gap": 14,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "zMoVu",
+                          "name": "tc3Avatar",
+                          "width": 48,
+                          "height": 48,
+                          "fill": "#06b6d4",
+                          "cornerRadius": 50,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "3jyX5",
+                              "name": "tc3AvatarTxt",
+                              "fill": "#FFFFFF",
+                              "content": "MR",
+                              "fontFamily": "Outfit",
+                              "fontSize": 14,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "GZJDO",
+                          "name": "tc3Info",
+                          "layout": "vertical",
+                          "gap": 3,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "rFTKh",
+                              "name": "tc3Name",
+                              "fill": "#FFFFFF",
+                              "content": "Michael Ross",
+                              "fontFamily": "Outfit",
+                              "fontSize": 15,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "DWK8R",
+                              "name": "tc3Role",
+                              "fill": "#9ca3af",
+                              "content": "Founder, DataFlow",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "hbEYx",
+                      "name": "tc3Stars",
+                      "fill": "#fbbf24",
+                      "content": "★★★★½",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xG5a1",
+                      "name": "tc3Quote",
+                      "fill": "#9ca3af",
+                      "content": "\"Their generative AI tools helped us automate content creation, saving us countless hours. A game changer.\"",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "pASCf",
+          "name": "About",
+          "width": "fill_container",
+          "fill": "#0a0a12",
+          "gap": 80,
+          "padding": [
+            100,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "z0qpn",
+              "name": "aboutLeft",
+              "width": 560,
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "lBW29",
+                  "name": "aboutTitle",
+                  "fill": "#FFFFFF",
+                  "content": "Pioneering the Future\nof Intelligence",
+                  "fontFamily": "Outfit",
+                  "fontSize": 44,
+                  "fontWeight": "700",
+                  "letterSpacing": -1.5
+                },
+                {
+                  "type": "text",
+                  "id": "X2snZ",
+                  "name": "aboutTitleAccent",
+                  "fill": "#3b82f6",
+                  "content": "Built on deep AI expertise.",
+                  "fontFamily": "Outfit",
+                  "fontSize": 28,
+                  "fontWeight": "700",
+                  "letterSpacing": -0.5
+                },
+                {
+                  "type": "text",
+                  "id": "60K6c",
+                  "name": "aboutP1",
+                  "fill": "#9ca3af",
+                  "content": "At Teravox, we believe in the transformative power of AI. Our mission is to bridge the gap between complex AI technologies and practical business applications.",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "sF8Be",
+                  "name": "aboutP2",
+                  "fill": "#9ca3af",
+                  "content": "Founded by a team of AI researchers and engineers, we deliver robust, scalable, and ethical AI solutions tailored to your specific needs.",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "7uQgi",
+                  "name": "aboutStats",
+                  "gap": 40,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "g3rqT",
+                      "name": "as1",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "oG4NZ",
+                          "name": "as1Val",
+                          "fill": "#3b82f6",
+                          "content": "50+",
+                          "fontFamily": "Outfit",
+                          "fontSize": 42,
+                          "fontWeight": "700",
+                          "letterSpacing": -1
+                        },
+                        {
+                          "type": "text",
+                          "id": "sHJx5",
+                          "name": "as1Lbl",
+                          "fill": "#9ca3af",
+                          "content": "Projects Delivered",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "z7Q94",
+                      "name": "as2",
+                      "layout": "vertical",
+                      "gap": 6,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "aU4Hu",
+                          "name": "as2Val",
+                          "fill": "#8b5cf6",
+                          "content": "98%",
+                          "fontFamily": "Outfit",
+                          "fontSize": 42,
+                          "fontWeight": "700",
+                          "letterSpacing": -1
+                        },
+                        {
+                          "type": "text",
+                          "id": "kb13i",
+                          "name": "as2Lbl",
+                          "fill": "#9ca3af",
+                          "content": "Client Satisfaction",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "LiLqi",
+              "name": "aboutRight",
+              "width": 520,
+              "height": 380,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1772273403367.png",
+                "mode": "fill"
+              },
+              "cornerRadius": 24,
+              "layout": "vertical",
+              "gap": 16,
+              "justifyContent": "center",
+              "alignItems": "center"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "h5k2y",
+          "name": "Contact",
+          "width": "fill_container",
+          "fill": "#3b82f60D",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": [
+            100,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "81PbL",
+              "name": "contactTitle",
+              "fill": "#FFFFFF",
+              "content": "Start Your Transformation",
+              "textAlign": "center",
+              "fontFamily": "Outfit",
+              "fontSize": 48,
+              "fontWeight": "700",
+              "letterSpacing": -1.5
+            },
+            {
+              "type": "text",
+              "id": "cbIYL",
+              "name": "contactSub",
+              "fill": "#9ca3af",
+              "content": "Ready to leverage AI for your business? Get in touch with us today.",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "V5wR3",
+              "name": "contactBox",
+              "width": 600,
+              "fill": "#14141FB3",
+              "cornerRadius": 24,
+              "layout": "vertical",
+              "gap": 16,
+              "padding": [
+                48,
+                40
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "0ADmq",
+                  "name": "f1",
+                  "width": "fill_container",
+                  "height": 52,
+                  "fill": "#FFFFFF0D",
+                  "cornerRadius": 12,
+                  "padding": [
+                    0,
+                    18
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "6c0SK",
+                      "name": "f1ph",
+                      "fill": "#64748b",
+                      "content": "Your Name",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "rsQeX",
+                  "name": "f2",
+                  "width": "fill_container",
+                  "height": 52,
+                  "fill": "#FFFFFF0D",
+                  "cornerRadius": 12,
+                  "padding": [
+                    0,
+                    18
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "VojW7",
+                      "name": "f2ph",
+                      "fill": "#64748b",
+                      "content": "Your Email",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "hYV10",
+                  "name": "f3",
+                  "width": "fill_container",
+                  "height": 120,
+                  "fill": "#FFFFFF0D",
+                  "cornerRadius": 12,
+                  "padding": [
+                    16,
+                    18
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "SPlgO",
+                      "name": "f3ph",
+                      "fill": "#64748b",
+                      "content": "Tell us about your project",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Jqa90",
+                  "name": "submitBtn",
+                  "width": "fill_container",
+                  "height": 52,
+                  "fill": "#3b82f6",
+                  "cornerRadius": 50,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lqGaz",
+                      "name": "submitTxt",
+                      "fill": "#FFFFFF",
+                      "content": "Send Message",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "u6SQ6",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "#14141FB3",
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            48,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "6Estx",
+              "name": "footerLogo",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "DfFAc",
+                  "name": "footerLogoBox",
+                  "width": 36,
+                  "height": 36,
+                  "fill": "#3b82f6",
+                  "cornerRadius": 8,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gcnA1",
+                      "name": "footerLogoBoxTxt",
+                      "fill": "#FFFFFF",
+                      "content": "TX",
+                      "fontFamily": "Outfit",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "00Tqj",
+                  "name": "footerBrand",
+                  "fill": "#FFFFFF",
+                  "content": "Teravox",
+                  "fontFamily": "Outfit",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "OCUeT",
+              "name": "footerLinks",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "4sRgH",
+                  "name": "fl1",
+                  "fill": "#9ca3af",
+                  "content": "Privacy Policy",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "lOqJY",
+                  "name": "fl2",
+                  "fill": "#9ca3af",
+                  "content": "Terms of Service",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "u6Uo9",
+                  "name": "fl3",
+                  "fill": "#9ca3af",
+                  "content": "LinkedIn",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Dm2a2",
+                  "name": "fl4",
+                  "fill": "#9ca3af",
+                  "content": "Twitter",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "RDghf",
+              "name": "footerCopy",
+              "fill": "#64748b",
+              "content": "© 2024 Teravox. All rights reserved.",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "PMWbq",
+      "x": 1540,
+      "y": 0,
+      "name": "Teravox — Mobile (Dark)",
+      "width": 390,
+      "fill": "#0a0a12",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Mgthj",
+          "name": "mNav",
+          "width": "fill_container",
+          "height": 64,
+          "fill": "#14141F99",
+          "padding": [
+            0,
+            20
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "RCWIO",
+              "name": "mNavLeft",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "tIwGN",
+                  "name": "mNavLogoBox",
+                  "width": 36,
+                  "height": 36,
+                  "fill": "#3b82f6",
+                  "cornerRadius": 8,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ZVAvb",
+                      "name": "mNavLogoTxt",
+                      "fill": "#FFFFFF",
+                      "content": "TX",
+                      "fontFamily": "Outfit",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "7tZDu",
+                  "name": "mNavBrand",
+                  "fill": "#FFFFFF",
+                  "content": "Teravox",
+                  "fontFamily": "Outfit",
+                  "fontSize": 17,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "zBOhD",
+              "name": "mNavCta",
+              "fill": "#3b82f6",
+              "cornerRadius": 50,
+              "padding": [
+                9,
+                18
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "26qkF",
+                  "name": "mNavCtaTxt",
+                  "fill": "#FFFFFF",
+                  "content": "Get Started",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ik8Tl",
+          "name": "mHero",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 22,
+          "padding": [
+            56,
+            20,
+            72,
+            20
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "yh3I8",
+              "name": "mBadge",
+              "fill": "#3b82f614",
+              "cornerRadius": 50,
+              "gap": 7,
+              "padding": [
+                7,
+                14
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "7YfOu",
+                  "name": "mBadgeDot",
+                  "width": 6,
+                  "height": 6,
+                  "fill": "#3b82f6",
+                  "cornerRadius": 50
+                },
+                {
+                  "type": "text",
+                  "id": "jmVzc",
+                  "name": "mBadgeTxt",
+                  "fill": "#3b82f6",
+                  "content": "Next-Gen AI Solutions",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "DaD8v",
+              "name": "mHeroTitle",
+              "fill": "#FFFFFF",
+              "content": "Empowering Business with Artificial Intelligence",
+              "textAlign": "center",
+              "fontFamily": "Outfit",
+              "fontSize": 36,
+              "fontWeight": "700",
+              "letterSpacing": -1.2
+            },
+            {
+              "type": "text",
+              "id": "gAqHE",
+              "name": "mHeroAccent",
+              "fill": "#3b82f6",
+              "content": "built to transform.",
+              "textAlign": "center",
+              "fontFamily": "Outfit",
+              "fontSize": 28,
+              "fontWeight": "700",
+              "letterSpacing": -0.8
+            },
+            {
+              "type": "text",
+              "id": "d6yf3",
+              "name": "mHeroSub",
+              "fill": "#9ca3af",
+              "content": "NLP, Generative AI, and intelligent automation to transform how you interact with your customers.",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "FnkfS",
+              "name": "mBtn1",
+              "width": "fill_container",
+              "height": 50,
+              "fill": "#3b82f6",
+              "cornerRadius": 50,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "c2iF5",
+                  "name": "mBtn1Txt",
+                  "fill": "#FFFFFF",
+                  "content": "Book a Demo",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "nfPAi",
+              "name": "mBtn2",
+              "width": "fill_container",
+              "height": 50,
+              "fill": "#FFFFFF00",
+              "cornerRadius": 50,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Bg7Dg",
+                  "name": "mBtn2Txt",
+                  "fill": "#3b82f6",
+                  "content": "Explore Services",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ItuT1",
+          "name": "mSvc",
+          "width": "fill_container",
+          "fill": "#0a0a12",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            60,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "B2n91",
+              "name": "mSvcTitle",
+              "fill": "#FFFFFF",
+              "content": "Our Expertise",
+              "textAlign": "center",
+              "fontFamily": "Outfit",
+              "fontSize": 36,
+              "fontWeight": "700",
+              "letterSpacing": -1
+            },
+            {
+              "type": "text",
+              "id": "ixQaY",
+              "name": "mSvcSub",
+              "fill": "#9ca3af",
+              "content": "End-to-end AI solutions built for real business impact.",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "NrzVI",
+              "name": "mCards",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "dxG6s",
+                  "name": "mc1",
+                  "width": "fill_container",
+                  "fill": "#14141FB3",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    24,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "R4D3l",
+                      "name": "mc1Ib",
+                      "width": 44,
+                      "height": 44,
+                      "fill": "#3b82f614",
+                      "cornerRadius": 12,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "XSuhy",
+                          "name": "mc1I",
+                          "content": "🧠",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "S5vd5",
+                      "name": "mc1T",
+                      "fill": "#FFFFFF",
+                      "content": "Generative AI",
+                      "fontFamily": "Outfit",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "tbsIb",
+                      "name": "mc1D",
+                      "fill": "#9ca3af",
+                      "content": "Custom LLM integration and fine-tuning for content generation and creative workflows.",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "3D1rn",
+                  "name": "mc2",
+                  "width": "fill_container",
+                  "fill": "#14141FB3",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    24,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "8uZ5y",
+                      "name": "mc2Ib",
+                      "width": 44,
+                      "height": 44,
+                      "fill": "#8b5cf614",
+                      "cornerRadius": 12,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "dFSBX",
+                          "name": "mc2I",
+                          "content": "💬",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "uHj76",
+                      "name": "mc2T",
+                      "fill": "#FFFFFF",
+                      "content": "NLP Solutions",
+                      "fontFamily": "Outfit",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "GKwii",
+                      "name": "mc2D",
+                      "fill": "#9ca3af",
+                      "content": "Advanced NLP for sentiment analysis, extraction, and classification.",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "PPhKL",
+                  "name": "mc3",
+                  "width": "fill_container",
+                  "fill": "#14141FB3",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    24,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "omhEa",
+                      "name": "mc3Ib",
+                      "width": 44,
+                      "height": 44,
+                      "fill": "#06b6d414",
+                      "cornerRadius": 12,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "LJl35",
+                          "name": "mc3I",
+                          "content": "🤖",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "NmKWJ",
+                      "name": "mc3T",
+                      "fill": "#FFFFFF",
+                      "content": "Smart Chatbots",
+                      "fontFamily": "Outfit",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "NJ033",
+                      "name": "mc3D",
+                      "fill": "#9ca3af",
+                      "content": "Intelligent agents that handle customer support 24/7 with human-like empathy.",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "1MwFW",
+              "name": "mCards2",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "f0p0Y",
+                  "name": "mc4",
+                  "width": "fill_container",
+                  "fill": "#14141FB3",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    24,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "K27UN",
+                      "name": "mc4Ib",
+                      "width": 44,
+                      "height": 44,
+                      "fill": "#3b82f614",
+                      "cornerRadius": 12,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "tk6rf",
+                          "name": "mc4I",
+                          "content": "📞",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "M5TJ7",
+                      "name": "mc4T",
+                      "fill": "#FFFFFF",
+                      "content": "Call Bots",
+                      "fontFamily": "Outfit",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "z7658",
+                      "name": "mc4D",
+                      "fill": "#9ca3af",
+                      "content": "Voice-enabled AI agents handling complex phone queries and scheduling.",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "4XwBO",
+                  "name": "mc5",
+                  "width": "fill_container",
+                  "fill": "#14141FB3",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    24,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "sxbNc",
+                      "name": "mc5Ib",
+                      "width": 44,
+                      "height": 44,
+                      "fill": "#8b5cf614",
+                      "cornerRadius": 12,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "3Rocn",
+                          "name": "mc5I",
+                          "content": "📊",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "KuvdY",
+                      "name": "mc5T",
+                      "fill": "#FFFFFF",
+                      "content": "Data Analytics",
+                      "fontFamily": "Outfit",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "M4Uad",
+                      "name": "mc5D",
+                      "fill": "#9ca3af",
+                      "content": "Turn unstructured data into actionable insights with AI-powered analytics.",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "iwyJJ",
+                  "name": "mc6",
+                  "width": "fill_container",
+                  "fill": "#14141FB3",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": [
+                    24,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "4Dm63",
+                      "name": "mc6Ib",
+                      "width": 44,
+                      "height": 44,
+                      "fill": "#06b6d414",
+                      "cornerRadius": 12,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "GZ0fC",
+                          "name": "mc6I",
+                          "content": "⚙️",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "cxLVw",
+                      "name": "mc6T",
+                      "fill": "#FFFFFF",
+                      "content": "Automations",
+                      "fontFamily": "Outfit",
+                      "fontSize": 17,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "46POS",
+                      "name": "mc6D",
+                      "fill": "#9ca3af",
+                      "content": "Streamline with n8n, Zapier, and GoHighLevel to save time and reduce errors.",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Dgtgu",
+          "name": "mTest",
+          "width": "fill_container",
+          "fill": "#3b82f60D",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            60,
+            20
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "ma3ca",
+              "name": "mTestTitle",
+              "fill": "#FFFFFF",
+              "content": "What Our Clients Say",
+              "textAlign": "center",
+              "fontFamily": "Outfit",
+              "fontSize": 36,
+              "fontWeight": "700",
+              "letterSpacing": -1
+            },
+            {
+              "type": "frame",
+              "id": "EVe2o",
+              "name": "mtc1",
+              "width": "fill_container",
+              "fill": "#14141FB3",
+              "cornerRadius": 20,
+              "layout": "vertical",
+              "gap": 16,
+              "padding": [
+                24,
+                20
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "FSAur",
+                  "name": "mtc1Top",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "OT4Ea",
+                      "name": "mtc1Av",
+                      "width": 42,
+                      "height": 42,
+                      "fill": "#3b82f6",
+                      "cornerRadius": 50,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "0Nlfm",
+                          "name": "mtc1AvTxt",
+                          "fill": "#FFFFFF",
+                          "content": "JD",
+                          "fontFamily": "Outfit",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mkeM2",
+                      "name": "mtc1Info",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "6fjNy",
+                          "name": "mtc1Name",
+                          "fill": "#FFFFFF",
+                          "content": "John Doe",
+                          "fontFamily": "Outfit",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "iNXAv",
+                          "name": "mtc1Role",
+                          "fill": "#9ca3af",
+                          "content": "CEO, TechCorp",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "TMD26",
+                  "name": "mtc1Stars",
+                  "fill": "#fbbf24",
+                  "content": "★★★★★",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "e7a8G",
+                  "name": "mtc1Quote",
+                  "fill": "#9ca3af",
+                  "content": "\"Teravox transformed our customer support with their AI chatbots. Efficiency increased by 40% in just two months!\"",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "47Kx1",
+              "name": "mtc2",
+              "width": "fill_container",
+              "fill": "#14141FB3",
+              "cornerRadius": 20,
+              "layout": "vertical",
+              "gap": 16,
+              "padding": [
+                24,
+                20
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "3n8C4",
+                  "name": "mtc2Top",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ivx1h",
+                      "name": "mtc2Av",
+                      "width": 42,
+                      "height": 42,
+                      "fill": "#8b5cf6",
+                      "cornerRadius": 50,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "p0peA",
+                          "name": "mtc2AvTxt",
+                          "fill": "#FFFFFF",
+                          "content": "AS",
+                          "fontFamily": "Outfit",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "83xPg",
+                      "name": "mtc2Info",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "VEOUz",
+                          "name": "mtc2Name",
+                          "fill": "#FFFFFF",
+                          "content": "Alice Smith",
+                          "fontFamily": "Outfit",
+                          "fontSize": 14,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "hKnpt",
+                          "name": "mtc2Role",
+                          "fill": "#9ca3af",
+                          "content": "CTO, InnovateX",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "EIytJ",
+                  "name": "mtc2Stars",
+                  "fill": "#fbbf24",
+                  "content": "★★★★★",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "69htL",
+                  "name": "mtc2Quote",
+                  "fill": "#9ca3af",
+                  "content": "\"The NLP solutions provided by Teravox gave us deep insights into our customer feedback. Highly recommended!\"",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "FAfy9",
+          "name": "mFooter",
+          "width": "fill_container",
+          "fill": "#14141FB3",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            40,
+            20
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "MaL3H",
+              "name": "mFooterLogo",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "QOFVi",
+                  "name": "mFooterLogoBox",
+                  "width": 32,
+                  "height": 32,
+                  "fill": "#3b82f6",
+                  "cornerRadius": 7,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "AcbMA",
+                      "name": "mFooterLogoTxt",
+                      "fill": "#FFFFFF",
+                      "content": "TX",
+                      "fontFamily": "Outfit",
+                      "fontSize": 12,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "bxSmq",
+                  "name": "mFooterBrand",
+                  "fill": "#FFFFFF",
+                  "content": "Teravox",
+                  "fontFamily": "Outfit",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "32iBf",
+              "name": "mFooterLinks",
+              "gap": 20,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "IlQwQ",
+                  "name": "mfl1",
+                  "fill": "#9ca3af",
+                  "content": "Privacy Policy",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "XaPEK",
+                  "name": "mfl2",
+                  "fill": "#9ca3af",
+                  "content": "Terms of Service",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "xEjq2",
+                  "name": "mfl3",
+                  "fill": "#9ca3af",
+                  "content": "LinkedIn",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "LlKID",
+              "name": "mFooterCopy",
+              "fill": "#64748b",
+              "content": "© 2024 Teravox. All rights reserved.",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
